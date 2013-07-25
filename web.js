@@ -13,7 +13,7 @@ var buff = fs.readFileSync('index.html','ascii');
   response.send(buff);
 });
 
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 8080;
 app.listen(port, function() {
   console.log("Listening on " + port);
 });
